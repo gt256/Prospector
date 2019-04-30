@@ -45,10 +45,9 @@ public class ScoreManager : MonoBehaviour
 
     static public void EVENT(eScoreEvent evt)
     {
-        try { S.Event(evt);
-        }
+        try { S.Event(evt);}
         catch(System.NullReferenceException nre){
-            //Debug.LogError; "ScoreManager:EVENT() called while S=null.\n" + nre);
+            Debug.LogError("ScoreManager:EVENT() called while S=null.\n" + nre);
             }
         }
         void Event(eScoreEvent evt)
@@ -93,8 +92,8 @@ public class ScoreManager : MonoBehaviour
                     break;
             }
         }
-        static public int CHAIN { get{ return S.chain;  } }
-        static public int SCORE { get{ return S.score; } }
-        static public int SCORE_RUN { get{ return S.scoreRun; } }
+        public static int CHAIN { get { return S.chain;  } }
+        public static int SCORE { get { return S.score; } }
+        public static int SCORE_RUN { get { return S.scoreRun; } }
     }
 
