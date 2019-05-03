@@ -320,7 +320,7 @@ public class Prospector : MonoBehaviour {
             ScoreManager.EVENT(eScoreEvent.gameLoss);
             FloatingScoreHandler(eScoreEvent.gameLoss);
         }
-        //SceneManager.LoadScene("_Prospector_Scene_0");
+       
         Invoke("ReloadLevel", reloadDelay);
     }
 

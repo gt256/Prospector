@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{BF731106-F445-FE34-3DDA-B2B91338CF62}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/Prospector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/FloatingScore.cs">
     <Files>
       <File FileName="Assets/__Scripts/Deck.cs" Line="267" Column="29" />
       <File FileName="Assets/__Scripts/Layout.cs" Line="61" Column="39" />
